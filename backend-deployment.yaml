@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: docker.io/DOCKER_USERNAME/crypto_webapp:backend-latest  # Remplacé par Jenkins
+        image: docker.io/ziyed1/crypto_webapp:backend-77e5b3b
         ports:
         - containerPort: 3000
