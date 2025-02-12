@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: docker.io/DOCKER_USERNAME/crypto_webapp:frontend-latest  # Remplacé par Jenkins
+        image: docker.io/ziyed1/crypto_webapp:frontend-5a0b04f
         ports:
         - containerPort: 80
