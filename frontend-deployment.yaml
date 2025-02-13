@@ -14,6 +14,8 @@ spec:
       labels:
         app: frontend
     spec:
+      imagePullSecrets:
+      - name: dockerhub-secret 
       containers:
       - name: frontend
         image: docker.io/ziyed1/crypto_webapp:frontend-5a0b04f

@@ -14,6 +14,8 @@ spec:
       labels:
         app: backend
     spec:
+      imagePullSecrets:
+      - name: dockerhub-secret 
       containers:
       - name: backend
         image: docker.io/ziyed1/crypto_webapp:backend-77e5b3b
