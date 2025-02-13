@@ -18,6 +18,6 @@ spec:
       - name: dockerhub-secret 
       containers:
       - name: backend
-        image: docker.io/ziyed1/crypto_webapp:backend-09aa43c
+        image: docker.io/ziyed1/crypto_webapp:backend-5239b39
         ports:
         - containerPort: 3000
