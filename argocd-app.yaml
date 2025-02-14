@@ -15,3 +15,8 @@ spec:
     automated:
       prune: true
       selfHeal: true
+      syncWindow: 'daily'  # Optionnellement, tu peux utiliser un "syncWindow" si tu veux des heures spécifiques
+      retry:
+        limit: 3   # Nombre maximal de tentatives en cas d'échec
+    syncOptions:
+      - Validate=false
