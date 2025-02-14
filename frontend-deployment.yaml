@@ -18,7 +18,7 @@ spec:
       - name: dockerhub-secret 
       containers:
       - name: frontend
-        image: docker.io/ziyed1/crypto_webapp:frontend-be14796
+        image: docker.io/ziyed1/crypto_webapp:frontend-425b7d8
         ports:
         - containerPort: 80
         
