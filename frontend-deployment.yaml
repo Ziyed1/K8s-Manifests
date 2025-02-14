@@ -21,3 +21,4 @@ spec:
         image: docker.io/ziyed1/crypto_webapp:frontend-be14796
         ports:
         - containerPort: 80
+        
